@@ -1,0 +1,19 @@
+niobeClientData[0][1].data.presentation.stayProductDetailPage.sections.sbuiData.sectionConfiguration.root
+
+sections[0].sectionData.title = Entire rental unit in Ahmedabad, India
+sections[0].sectionData.overviewItems[*].title = 6 guests2 bedrooms2 beds2 bathrooms
+sections[0].sectionData.reviewData.ratingText = 4.74
+sections[0].sectionData.reviewData.reviewCountText = 39 reviews
+
+sections[0].sectionData.title = Hosted by Vaibhav
+sections[0].sectionData.overviewItems[0].title = 7 years hosting
+
+niobeClientData[0].StaysPdpSections.data.presentation.stayProductDetailPage.sections.sections[17]
+
+section.highlights[i].icon
+section.highlights[i].title
+section.highlights[i].subtitle
+
+niobeClientData[0].StaysPdpSections.data.presentation.stayProductDetailPage.sections.sections[18]
+section.htmlDescription.htmlText = Escape to Marrakech in the Heart of the City!
+

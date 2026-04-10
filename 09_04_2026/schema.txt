@@ -1,0 +1,78 @@
+// first image
+{
+    "restorantname":"Saraswati Niwas",
+    "details": {
+        "title" : "Entire rental unit in Ahmedabad, India",
+        "capacity" : [
+            {
+                "capacityName" : "capacityValue"
+            }
+        ],
+        "rating" : 4.74,
+        "review" : "39 reviews",
+        "profile" : {
+                "profile_photo" : "url",
+                "name" : "Hosted by Vaibhav",
+                "Years" : "7 years hosting"
+            },
+        "Highlights" : [
+            {   
+                "icon": "",
+                "title":"Amenities for everyday living",
+                "subtitle":"The Host has equipped this place for long stays – kitchen, washing machine, free parking and A/C included."
+            }
+        ],
+        "description": "Escape to Marrakech in the Heart of the City!"
+
+    },
+    "paymentDetails":{
+            "currency" : "INR",
+            "monthly_price" : 0,
+            "original_price" : 0,
+            "price_unit": "monthly"
+    }
+}
+
+
+//second image
+{
+    "title" : "What this place offers",
+    "allamenities": [
+        {
+            "title" : "bathroom",
+            "amenities" : [
+                {
+                    "icon":"",
+                    "name":""
+                }
+            ],
+        },
+    ]
+}
+
+// third image
+{
+    [
+        "reviews" : {
+                "name" : "Manushi",
+                "stars" : [*,*,],
+                "date" : "January 2026",
+                "message" : "We had a really lovely stay and truly enjoyed our time here. The flat was clean, decent, safe, and instantly felt like home. Everything we needed was available, which made the stay "
+        },
+    ]
+
+}
+
+//fourth image
+{
+
+    "profile" : {
+        "host_name" : "Vaibhav",
+        "details" : [
+            {
+                "counting" : 43,
+                "detail" : ""
+            }
+        ]
+    }
+}
