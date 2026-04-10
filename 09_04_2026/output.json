@@ -1,209 +1,119 @@
 {
-    "FirstImageData": {
-        "restorantname": " Saraswati Niwas",
-        "details": {
-            "title": "Entire rental unit in Ahmedabad, India",
-            "capacity": [
-                {
-                    "guests": "6"
-                },
-                {
-                    "bedrooms": "2"
-                },
-                {
-                    "beds": "2"
-                },
-                {
-                    "bathrooms": "2"
-                }
-            ],
-            "rating": "4.74",
-            "review": 39,
-            "profile": {
-                "profile_name": "Hosted by Vaibhav",
-                "year_of_expreience": "7 years hosting",
-                "profile_url": "https://a0.muscache.com/im/pictures/user/dac8ab5d-aba9-4e0d-a76e-5e6916949d3e.jpg?aki_policy=profile_x_medium"
-            },
-            "highlights": [
-                {
-                    "icon": "SYSTEM_COOKING_BASICS",
-                    "title": "Amenities for everyday living",
-                    "subtitle": "The Host has equipped this place for long stays \u2013 kitchen, washing machine, free parking and A/C included."
-                },
-                {
-                    "icon": "SYSTEM_CHECK_IN",
-                    "title": "Self check-in",
-                    "subtitle": "Check yourself in with the lockbox."
-                },
-                {
-                    "icon": "SYSTEM_PETS",
-                    "title": "Pet-friendly",
-                    "subtitle": "Furry friends are welcome throughout your stay."
-                }
-            ],
-            "description": "Escape to Marrakech in the Heart of the City!\n\nExperience Moroccan magic in our spacious flat, a serene oasis with modern amenities. Enjoy state-of-the-art internet, projector, and sound system. Unwind at our mocktail bar, perfect for gatherings or relaxation. Vibrant colors and intricate patterns transport you to Marrakech's bustling souks. This private retreat offers a unique haven for relaxation, entertainment, and inspiration. Make yourself at home and indulge in Moroccan magic!"
+    "restaurant_name": "Saraswati Niwas",
+    "details": {
+        "title": "Entire rental unit in Ahmedabad, India",
+        "capacity": {
+            "guests": 6,
+            "bedrooms": 2,
+            "beds": 2,
+            "bathrooms": 2
         },
-        "paymentDetails": {
-            "currency": "INR",
-            "discounted_price": "\u20b939,256",
-            "original_price": "\u20b967,432",
-            "price_type": "monthly"
-        }
+        "rating": 4.74,
+        "review": 39,
+        "profile": {
+            "profile_name": "Hosted by Vaibhav",
+            "year_of_expreience": "7 years hosting",
+            "profile_url": "https://a0.muscache.com/im/pictures/user/dac8ab5d-aba9-4e0d-a76e-5e6916949d3e.jpg?aki_policy=profile_x_medium"
+        },
+        "highlights": [
+            {
+                "title": "Amenities for everyday living",
+                "subtitle": "The Host has equipped this place for long stays \u2013 kitchen, washing machine, free parking and A/C included."
+            },
+            {
+                "title": "Self check-in",
+                "subtitle": "Check yourself in with the lockbox."
+            },
+            {
+                "title": "Pet-friendly",
+                "subtitle": "Furry friends are welcome throughout your stay."
+            }
+        ],
+        "description": "Escape to Marrakech in the Heart of the City!\n\nExperience Moroccan magic in our spacious flat, a serene oasis with modern amenities. Enjoy state-of-the-art internet, projector, and sound system. Unwind at our mocktail bar, perfect for gatherings or relaxation. Vibrant colors and intricate patterns transport you to Marrakech's bustling souks. This private retreat offers a unique haven for relaxation, entertainment, and inspiration. Make yourself at home and indulge in Moroccan magic!"
     },
-    "SecondImageData": [
+    "paymentDetails": {
+        "currency": "INR",
+        "discounted_price": 39256,
+        "original_price": 67432,
+        "price_type": "monthly"
+    },
+    "amenities": [
         {
-            "title": "What this place offers",
+            "category": "Bathroom",
             "amenities": [
-                {
-                    "heading": "Bathroom",
-                    "amenities": [
-                        {
-                            "name": "Hairdryer",
-                            "icon": "SYSTEM_HAIRDRYER"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Bedroom and laundry",
-                    "amenities": [
-                        {
-                            "name": "Washing machine",
-                            "icon": "SYSTEM_WASHER"
-                        },
-                        {
-                            "name": "Bed linen",
-                            "icon": "SYSTEM_BLANKETS"
-                        },
-                        {
-                            "name": "Iron",
-                            "icon": "SYSTEM_IRON"
-                        },
-                        {
-                            "name": "Clothes storage",
-                            "icon": "SYSTEM_WARDROBE"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Entertainment",
-                    "amenities": [
-                        {
-                            "name": "TV",
-                            "icon": "SYSTEM_TV"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Heating and cooling",
-                    "amenities": [
-                        {
-                            "name": "Air conditioning",
-                            "icon": "SYSTEM_SNOWFLAKE"
-                        },
-                        {
-                            "name": "Heating",
-                            "icon": "SYSTEM_THERMOMETER"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Home safety",
-                    "amenities": [
-                        {
-                            "name": "Exterior security cameras on property",
-                            "icon": "SYSTEM_SURVEILLANCE"
-                        },
-                        {
-                            "name": "Fire extinguisher",
-                            "icon": "SYSTEM_FIRE_EXTINGUISHER"
-                        },
-                        {
-                            "name": "First aid kit",
-                            "icon": "SYSTEM_FIRST_AID_KIT"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Internet and office",
-                    "amenities": [
-                        {
-                            "name": "Wifi",
-                            "icon": "SYSTEM_WI_FI"
-                        },
-                        {
-                            "name": "Dedicated workspace",
-                            "icon": "SYSTEM_WORKSPACE"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Kitchen and dining",
-                    "amenities": [
-                        {
-                            "name": "Kitchen",
-                            "icon": "SYSTEM_COOKING_BASICS"
-                        },
-                        {
-                            "name": "Cooking basics",
-                            "icon": "SYSTEM_COOKING_BASICS"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Parking and facilities",
-                    "amenities": [
-                        {
-                            "name": "Free parking on premises",
-                            "icon": "SYSTEM_MAPS_CAR_RENTAL"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Services",
-                    "amenities": [
-                        {
-                            "name": "Pets allowed",
-                            "icon": "SYSTEM_PETS"
-                        },
-                        {
-                            "name": "Self check-in",
-                            "icon": "SYSTEM_KEY"
-                        },
-                        {
-                            "name": "Lockbox",
-                            "icon": "SYSTEM_SAFE"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Not included",
-                    "amenities": [
-                        {
-                            "name": "Tumble dryer",
-                            "icon": "SYSTEM_NO_DRYER"
-                        },
-                        {
-                            "name": "Essentials",
-                            "icon": "SYSTEM_NO_ESSENTIALS"
-                        },
-                        {
-                            "name": "Smoke alarm",
-                            "icon": "SYSTEM_NO_DETECTOR_SMOKE"
-                        },
-                        {
-                            "name": "Carbon monoxide alarm",
-                            "icon": "SYSTEM_NO_DETECTOR_CO2"
-                        },
-                        {
-                            "name": "Hot water",
-                            "icon": "SYSTEM_NO_HOT_WATER"
-                        }
-                    ]
-                }
+                "Hairdryer"
+            ]
+        },
+        {
+            "category": "Bedroom and laundry",
+            "amenities": [
+                "Washing machine",
+                "Bed linen",
+                "Iron",
+                "Clothes storage"
+            ]
+        },
+        {
+            "category": "Entertainment",
+            "amenities": [
+                "TV"
+            ]
+        },
+        {
+            "category": "Heating and cooling",
+            "amenities": [
+                "Air conditioning",
+                "Heating"
+            ]
+        },
+        {
+            "category": "Home safety",
+            "amenities": [
+                "Exterior security cameras on property",
+                "Fire extinguisher",
+                "First aid kit"
+            ]
+        },
+        {
+            "category": "Internet and office",
+            "amenities": [
+                "Wifi",
+                "Dedicated workspace"
+            ]
+        },
+        {
+            "category": "Kitchen and dining",
+            "amenities": [
+                "Kitchen",
+                "Cooking basics"
+            ]
+        },
+        {
+            "category": "Parking and facilities",
+            "amenities": [
+                "Free parking on premises"
+            ]
+        },
+        {
+            "category": "Services",
+            "amenities": [
+                "Pets allowed",
+                "Self check-in",
+                "Lockbox"
+            ]
+        },
+        {
+            "category": "Not included",
+            "amenities": [
+                "Tumble dryer",
+                "Essentials",
+                "Smoke alarm",
+                "Carbon monoxide alarm",
+                "Hot water"
             ]
         }
     ],
-    "ThirdImageData": [
+    "reviews": [
         {
             "name": "Manushi",
             "rating": 5,
@@ -349,21 +259,12 @@
             "Comments": "Excellent stay, great property."
         }
     ],
-    "FourthImageData": {
-        "host_name": "Vaibhav",
-        "details": [
-            {
-                "counting": "43",
-                "detail": "Reviews"
-            },
-            {
-                "counting": "4.77",
-                "detail": "Rating"
-            },
-            {
-                "counting": "7",
-                "detail": "Years hosting"
-            }
-        ]
+    "ProfileDetails": {
+        "name": "Vaibhav",
+        "details": {
+            "Reviews": 43,
+            "Rating": 4.77,
+            "Years hosting": 7
+        }
     }
 }

@@ -7,4 +7,17 @@ with open("air_bnb.json","r",encoding="utf-8") as f:
 
 StartPart = jmespath.search("niobeClientData[0][1].data.presentation.stayProductDetailPage.sections.sections[5].section",data)
 
-ProfileView = jmespath.search("cardData.{ host_name : name , details : stats[].{counting : value, detail: label} }",StartPart)
+title = jmespath.search("cardData.name",StartPart)
+counting = jmespath.search("cardData.stats[].value",StartPart)
+review = jmespath.search("cardData.stats[].label",StartPart)
+ProfileReview={}
+for i in range(len(counting)):
+    if '.' in counting[i]:
+        ProfileReview[f"{review[i]}"] = float(counting[i])
+    else:
+        ProfileReview[f"{review[i]}"] = int(counting[i])
+
+ProfileDetails = {
+    "name" : title,
+    "details" : ProfileReview
+}
