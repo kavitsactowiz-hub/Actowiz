@@ -1,0 +1,14 @@
+{
+    "no":int,
+    "image":str,
+    "songName":str,
+    "ArtistName":str,
+    "Lw":int,
+    "Peak":int,
+    "weeks":int,
+    "Debut Position":int,
+    "Debut ChartDate":str,
+    "Peak ChartDate":str,
+    "Awards":List[]
+
+}
