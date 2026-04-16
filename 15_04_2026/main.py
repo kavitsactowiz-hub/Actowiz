@@ -29,34 +29,29 @@ data = requests.get(url)
 MusicDataList= []
 if data.status_code == 200:
     root = html.fromstring(data.text)
-    musiclist = root.xpath('//div[contains(@class,"chart-results-list")]/div[@class="o-chart-results-list-row-container"]')
+    musiclist = root.xpath('//div[@class="o-chart-results-list-row-container"]')
     for item in musiclist:
-        eachitem = item.xpath('ul[contains(@class,"o-chart-results-list-row")]/li')
-        imageurl = eachitem[1].xpath('div/div/img/@src')[0]
-        songName = eachitem[3].xpath('ul/li/h3/text()')[0].strip()
-        artistName = eachitem[3].xpath('ul/li/span/text()')[0].strip()
-        if artistName == "" or artistName == None:
-            artistName = eachitem[3].xpath('ul/li/span/a/text()')[0].strip()
-
-        rightsection = eachitem[3].xpath('ul/li/ul/div[@class="lrv-u-flex"]/li/span/text()')
+        imageurl = item.xpath("string(.//img/@src)")
+        songName = item.xpath('string(.//h3[@id="title-of-a-story"]/text())').strip()
+        artistName = "".join(item.xpath('.//span[contains(@class,"a-no-trucate")]//text()')).strip()
+        rightsection = item.xpath('.//div[@class="lrv-u-flex"]/li/span/text()')
         lw = rightsection[0].strip()
         peak = int(rightsection[1].strip())
         weeks = int(rightsection[2].strip())
-        itemExpand= item.xpath('div/div[@class="charts-results-item-detail-inner // "]/div')
-        debutPosition = itemExpand[0].xpath('div[@class="o-chart-position-stats__debut"]/div/span/text()')[0].strip()
-        debutChartDate = itemExpand[0].xpath('div[@class="o-chart-position-stats__debut"]/div/div/span/a/text()')[0].strip()
-        peakChartDate = itemExpand[0].xpath('div[@class="o-chart-position-stats__peak"]/div[@class="o-chart-position-stats__number"]/div/span/a/text()')[0].strip()
+        itemExpand= item.xpath('.//div[contains(@class,"charts-results-item-detail-inner")]/div')
+        debutPosition = itemExpand[0].xpath('string(.//div[@class="o-chart-position-stats__number"]/span/text())').strip()
+        debutChartDate = itemExpand[0].xpath('string(.//a[contains(@class,"c-label__link")]/text())').strip()
+        peakChartDate = itemExpand[0].xpath('string(.//div[@class="o-chart-position-stats__peak"]//a[contains(@class,"c-label__link")]/text())').strip()
         awardLists = itemExpand[1].xpath('div[@class="o-chart-awards-list"]/div')
         finalawardList = []
         if awardLists:
             for award in awardLists:
-                awardname = award.xpath('p/text()')[0]
+                awardname = award.xpath('string(./p/text())')
                 finalawardList.append(awardname)
 
         awardListsData = ", ".join(finalawardList)
-        # debutChartDate = datetime.strptime(debutChartDate, "%d/%m/%y").date()
-        # peakChartDate = datetime.strptime(peakChartDate, "%m/%d/%y").date()
 
+        
         musicData = {
             "imageurl" : imageurl,
             "songName" : songName,
@@ -71,18 +66,16 @@ if data.status_code == 200:
 
         }
         MusicDataList.append(musicData)
-        sql = """
-            INSERT INTO musiclist (musicname, artistname, imageurl, Lw, Peak, weeks,  DebutPosition, DebutChartDate, PeakChartDate, Awards)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-            """
-        val =(songName,artistName,imageurl,lw,peak,weeks,debutPosition,debutChartDate,peakChartDate,awardListsData)
-        mycursor.execute(sql,val)
-        mydb.commit()
 
-    #    break
-    #    print(musicData)
-
+        # sql = """
+        #     INSERT INTO musiclist (musicname, artistname, imageurl, Lw, Peak, weeks,  DebutPosition, DebutChartDate, PeakChartDate, Awards)
+        #     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        #     """
+        # val =(songName,artistName,imageurl,lw,peak,weeks,debutPosition,debutChartDate,peakChartDate,awardListsData)
+        # mycursor.execute(sql,val)
+        # mydb.commit()
+        
 #print(MusicDataList)
 with open("output.json","w",encoding="utf-8") as f:
     json.dump(MusicDataList,f)        
-#print(MusicDataList)
+# print(MusicDataList)
