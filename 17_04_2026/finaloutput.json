@@ -1,0 +1,75 @@
+{
+    "images": {
+        "drawing_01": "https://igus.widen.net/content/3gdx021lgj/png/Zg_iglidur_G_J_M250_W300_X_P_P210_J260_J3_J350_W360_L250_R_D_J200_X6_V400_Z_UW500_H_H1_H370_C500_A180_A181_A200_A350_A500_A160_A290_UW160_T220_Q_Q2_F_H4_UW_N54_GV0_J2_AB_Q290_RW370_G1_E7_J3B_.png?w=300&h=300&position=c&color=ffffffff&quality=80&u=gqh1pb",
+        "product_teaser_image": "https://igus.widen.net/content/pdvharn55l/png/iglidur%C2%AE_GLW.png?w=300&h=300&position=c&color=ffffffff&quality=80&u=gqh1pb"
+    },
+    "part_number": "GLWSM-1012-10",
+    "material": "iglidur\u00ae GLW",
+    "shape": "Sleeve bearings",
+    "dimensions": {
+        "d1": "10 mm",
+        "d2": "12 mm",
+        "b1": "10 mm"
+    },
+    "properites": [
+        "Resistant to shocks and impacts",
+        "Resistant to dirt and dust",
+        "Resistant to high loads (>60N/mm\u00b2)",
+        "Fogging behaviour according to DIN 75201-B",
+        "Low-cost material for high-volume production"
+    ],
+    "total_price": 2040.0,
+    "product_description": "iglidur\u00ae GLW | Low-cost material for large volumes With plain bearings made of the material iglidur\u00ae GLW, we can offer our customers an alternative to iglidur\u00ae G for large series applications. Featuring similar mechanical properties as iglidur\u00ae G, iglidur\u00ae GLW plain bearings are primarily recommended for static loads. These applications, where the properties of iglidur\u00ae G are unimportant to a degree , iglidur\u00ae GLW presents a cost-effective alternative. Typical applications Automotive Machine tools Robotics Find more applications here: Industry solutions \u00a0 When to use it? When an economical universal bearing for high volumes is required For high, primarily static loads For low to medium speeds When not to use it? When mechanical reworking of the wall surface is required iglidur\u00ae M250, sleeve bearing, mm For primarily dynamic loads iglidur\u00ae G, sleeve bearing, mm When extreme wear resistance is required iglidur\u00ae W300, sleeve bearing, mm For use under water iglidur\u00ae H2, sleeve bearing, mm Use our filter options to find the suitable product Tolerances and measuring system The installation dimensions and tolerances of the iglidur\u00ae plain bearings depend on the material and wall thickness. For each material, the moisture absorption and the thermal expansion are decisive factors. Plain bearings with low moisture absorption can be installed with a smaller bearing clearance. The rule for wall thickness: the thicker the wall of the bearings, the larger the clearances must be. Testing methods Assembly iglidur\u00ae plain bearings are press-fit bearings. The inner diameter is only adjusted to the appropriate tolerance after pressing into the housing hole. The press-fit excess dimension can be up to 2% of the inner diameter. This ensures the secure press-fitting of the bearings. Axial or radial movements in the housing are thus reliably avoided. iglidur\u00ae - assembling, gluing, machining \u00a0",
+    "technical_data": {
+        "dimensions": {
+            "\u00d8 d1": "10 mm",
+            "\u00d8 d2": "12 mm",
+            "b1": "10 mm",
+            "Length of bevel (f1)": "0.5 mm",
+            "Length of bevel (f2)": "0 mm",
+            "Length of bevel (f3)": "0 mm",
+            "Length of bevel (f4)": "0.5 mm",
+            "Bevel angle (f1)": "30 \u00b0",
+            "Bevel angle (f2)": "0 \u00b0",
+            "Bevel angle (f3)": "0 \u00b0",
+            "Bevel angle (f4)": "30 \u00b0"
+        },
+        "manufacturing_and_installation_tolerances": {
+            "shaft": "h9 (min: -0.0360 mm | max: 0.0000 mm)",
+            "d1": "E10 (min: 0.0250 mm | max: 0.0830 mm)",
+            "b1": "h13 (min: -0.2200 mm | max: 0.0000 mm)",
+            "d1 after press-fit": "min: 10.0250 mm | max: 10.0830 mm"
+        },
+        "general_properties": {
+            "\ufeffCoefficient of sliding friction, dynamic, against steel": "0,10 - 0,24 \u03bc",
+            "pv value, max. (dry)": "0.30 MPa \u00b7 m/s",
+            "Radioactive radiation max.": "3 \u22c5 10<sup>2</sup> Gy"
+        },
+        "mechanical_properties": {
+            "Max. recommended surface pressure": "80 MPa",
+            "Maximum running speed, rotating, short-term": "1 m/s",
+            "Pressure load": "74 MPa",
+            "Maximum running speed, linear, continous": "2.5 m/s",
+            "Maximum running speed, oscillating, continous": "0.6 m/s",
+            "Maximum running speed, oscillating, short-term": "0.7 m/s",
+            "Maximum running speed, rotating, continous": "0.8 m/s",
+            "Maximum running speed, linear, short-term": "3 m/s"
+        },
+        "requirements": {
+            "RoHS 2 compliant according to EU-Guideline 2011/65/EU": true,
+            "Detectable": false,
+            "Mould-free according to DIN EN ISO 846 Procedure A": false
+        },
+        "electricity_attributes": {
+            "Surface resistance": "> 10<sup>11</sup> \u03a9, test method DIN 53482",
+            "Specific volume resistance": "> 10<sup>11</sup> \u03a9cm, test method DIN IEC 93"
+        },
+        "thermal_attributes": {
+            "Max. temperature short": "160 \u00b0C",
+            "Heat conductivity": "0.24 W/m \u00b7 K, Pr\u00fcfmethode ASTM C 177",
+            "Thermal expansion coefficient (at 23\u00b0C/73\u00b0F)": "17 K\u20131 \u00b7 10\u20135 DIN53752",
+            "Max. temperature long": "100 \u00b0C",
+            "Lower application temperature": "-40 \u00b0C"
+        }
+    }
+}
