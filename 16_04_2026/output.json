@@ -1,0 +1,70 @@
+{
+    "Nutrition_information": {
+        "Energy (kcal)": {
+            "per 100g": 409.0,
+            "per serve": 286.0,
+            "%GDA per serve": "14%",
+            "%RDA per serve": "-"
+        },
+        "Protein (g)": {
+            "per 100g": 9.6,
+            "per serve": 6.7,
+            "%GDA per serve": "13%",
+            "%RDA per serve": "-"
+        },
+        "Carbohydrate (g)": {
+            "per 100g": 60.3,
+            "per serve": 42.2,
+            "%GDA per serve": "16%",
+            "%RDA per serve": "-"
+        },
+        "Total sugars(g)": {
+            "per 100g": 2.3,
+            "per serve": 1.6,
+            "%GDA per serve": "2%",
+            "%RDA per serve": "-"
+        },
+        "Sugar (Sucrose)(g)": {
+            "per 100g": 1.1,
+            "per serve": 0.8,
+            "%GDA per serve": "-",
+            "%RDA per serve": "-"
+        },
+        "Fibre (g)": {
+            "per 100g": 2.3,
+            "per serve": 1.6,
+            "%GDA per serve": "6%",
+            "%RDA per serve": "-"
+        },
+        "Total fat (g)": {
+            "per 100g": 14.4,
+            "per serve": 10.1,
+            "%GDA per serve": "14%",
+            "%RDA per serve": "-"
+        },
+        "Saturated fat (g)": {
+            "per 100g": 6.3,
+            "per serve": 4.4,
+            "%GDA per serve": "22%",
+            "%RDA per serve": "-"
+        },
+        "Trans fat(g)": {
+            "per 100g": 0.12,
+            "per serve": 0.08,
+            "%GDA per serve": "-",
+            "%RDA per serve": "-"
+        },
+        "Sodium (mg)": {
+            "per 100g": 1072.0,
+            "per serve": 750.4,
+            "%GDA per serve": "31%",
+            "%RDA per serve": "-"
+        },
+        "Iron (mg)": {
+            "per 100g": 3.7,
+            "per serve": 2.59,
+            "%GDA per serve": "-",
+            "%RDA per serve": "15%"
+        }
+    }
+}
