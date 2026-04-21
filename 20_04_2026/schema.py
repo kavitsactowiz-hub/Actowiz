@@ -1,0 +1,38 @@
+[
+    {
+        "movieName":str,
+        "movieUrl":str
+    },
+    {
+        "movieName":str,
+        "movieUrl":str
+    },
+    {
+        "movieName":str,
+        "movieUrl":str
+    }
+]
+
+{
+    "moviePoster":str,
+    "tomatoMeter":str,
+    "reviews":int,
+    "name":str,
+    "description":str,
+    "WhatToKnow":{
+        "title":str,
+        "description":str
+    },
+    "CastandCrewInformation":[
+        "profilePicture":str,
+        "name":str,
+        "character":str,
+        "credit":str
+    ],
+    "reviews_list":[
+        "name":str,
+        "subtitle":str,
+        "description":str
+    ],
+    "video_list":[str]
+}  
